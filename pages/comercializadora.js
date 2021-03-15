@@ -21,9 +21,6 @@ export default function Comercializadora(){
             <hr/>
             <ul>
               <li>Pelanes telcel a tu medida</li>
-              <li>Infraestructura para dar apoyo y seguimiento a las necesidades más complejas</li>
-              <li>Asesoría en planes y tarifas de acuerdo a las necesidades de cada empresa</li>
-              <li>Comunicación efectiva sobre planes y promociones para mejorar el servicio a cliente</li>
             </ul>
           </div>
         </div>
