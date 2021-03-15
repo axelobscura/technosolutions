@@ -13,6 +13,7 @@ export default function Layout({children}){
 
       <footer className="footer">
         <h4>TECHNO SOLUTION MÉXICO</h4>
+        <p>www.techno-solutions.com</p>
       </footer>
     </>
   )

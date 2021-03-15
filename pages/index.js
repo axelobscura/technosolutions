@@ -15,7 +15,7 @@ export default function Home() {
       <div className={styles.container}>
         <main className={styles.main}>
           <img src="logo.png" alt="TECHNO SOLUTIONS" title="techno solutions" style={{width: '200px'}} />
-          <p className={styles.presentacion}><b>Technsolutions</b> es una empresa consolidada como distribuidor autorizado de telcel, que pone a su disposición desde un centro de atención a clientes, hasta llevar el servicio a las puertas de cada empresa.</p>
+          <p className={styles.presentacion}><b>Technosolutions</b> es una empresa consolidada como <b>distribuidor autorizado de telcel</b>,<br/>que pone a su disposición desde un <b>centro de atención a clientes</b>, hasta llevar el servicio a las puertas de cada empresa.</p>
           <div className={styles.menuentrada}>
             <Link href="/">
               <IconContext.Provider value={{ className: "iconos-entrada" }}>

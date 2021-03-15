@@ -18,7 +18,7 @@ a {
   text-align: center;
   background: #0e1023;
   font-weight: 100;
-  padding: 3px 10px;
+  padding: 7px 10px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -27,14 +27,22 @@ a {
 
 .footer h4 {
   margin: 0;
-  padding: 10px;
+  padding: 0px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0px;
   color: #fff;
   font-weight: 100;
 }
 
 .iconos-entrada {
   font-size: 3rem;
-  margin: 3px 10px;
+  margin: 0 20px;
+  padding: 0;
   cursor: pointer;
   transition: all 1s;
   color: #fff;
@@ -42,4 +50,13 @@ a {
 
 .iconos-entrada:hover {
   color: #0e1023;
+}
+
+@media (max-width: 600px) {
+  .iconos-entrada {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+  }
 }
