@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgb(72,136,199);
+background: linear-gradient(153deg, rgba(72,136,199,1) 0%, rgba(29,30,50,1) 100%);
 }
 
 .main {
@@ -23,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 10px #333;
 }
 
 .footer img {
@@ -114,9 +117,20 @@
   height: 1em;
 }
 
+.presentacion {
+  text-align: center;
+  padding: 10px 90px;
+  color: #f2f2f2;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .presentacion {
+    padding: 10px 20px;
   }
 }
