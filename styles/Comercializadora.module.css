@@ -11,3 +11,34 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.servicios {
+  display: flex;
+  flex-direction: row;
+}
+
+.servicios div {
+  padding: 20px;
+  flex:1 1;
+}
+
+.servicios div h2 {
+  color: #fff;
+  background: rgba(0,0,0,0.7);
+  padding: 10px 20px;
+}
+
+.servicios div ul {
+  background: rgba(0,0,0,0.7);
+  padding: 30px;
+}
+
+.servicios div ul li {
+  color:#fff;
+}
+
+@media (max-width: 600px) {
+  .servicios {
+    flex-direction: column;
+  }
+}
