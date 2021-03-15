@@ -14,34 +14,37 @@ export default function Home() {
     <Layout>
       <div className={styles.container}>
         <main className={styles.main}>
-          <img src="logo.png" alt="TECHNO SOLUTIONS" title="techno solutions" style={{width: '200px'}} />
+          <Link href="/comercializadora">
+            <img src="logo.png" alt="TECHNO SOLUTIONS" title="techno solutions" style={{width: '200px'}} />
+          </Link>
           <p className={styles.presentacion}><b>Technosolutions</b> es una empresa consolidada como <b>distribuidor autorizado de telcel</b>,<br/>que pone a su disposición desde un <b>centro de atención a clientes</b>, hasta llevar el servicio a las puertas de cada empresa.</p>
           <div className={styles.menuentrada}>
-            <Link href="/">
+            
               <IconContext.Provider value={{ className: "iconos-entrada" }}>
-                <FaCreativeCommonsBy />
+                <Link href="/comercializadora">
+                  <a><FaCreativeCommonsBy /></a>
+                </Link>
               </IconContext.Provider>
-            </Link>
-            <Link href="/">
               <IconContext.Provider value={{ className: "iconos-entrada" }}>
-                <FaCreativeCommonsPd />
+                <Link href="/comercializadora">
+                  <a><FaCreativeCommonsPd /></a>
+                </Link>
               </IconContext.Provider>
-            </Link>
-            <Link href="/">
               <IconContext.Provider value={{ className: "iconos-entrada" }}>
-                <FaCreativeCommonsRemix />
+                <Link href="/comercializadora">
+                  <a><FaCreativeCommonsRemix /></a>
+                </Link>
               </IconContext.Provider>
-            </Link>
-            <Link href="/">
               <IconContext.Provider value={{ className: "iconos-entrada" }}>
-                <FaCreativeCommonsSampling />
+                <Link href="/comercializadora">
+                  <a><FaCreativeCommonsSampling /></a>
+                </Link>
               </IconContext.Provider>
-            </Link>
-            <Link href="/">
               <IconContext.Provider value={{ className: "iconos-entrada" }}>
-                <FaCreativeCommonsShare />
+                <Link href="/comercializadora">
+                  <a><FaCreativeCommonsShare /></a>
+                </Link>
               </IconContext.Provider>
-            </Link>
           </div>
         </main>
       </div>
